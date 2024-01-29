@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Honk:MORF@16&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* navbar start */
+.navfletter::first-letter{ 
+        font-size: 3.2rem;
+        
+      
+      
+}
+
+.navfletter{
+  
+      font-size: 2.5rem !important;
+      font-weight: 500;
+  background: -webkit-linear-gradient(#4c2ae4, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 7px 3px 12px black;
+
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#navbarSupportedContent li a{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#navbarSupportedContent li a:hover{
+    color: #0DCAF1;
+    background-color: #292052;
+    border-radius: 5px;
+}
+/* navbar end  */
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+
+h1 ,h5{
+    font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card-body img{
+    min-width: 50%;
+}
+
+/* contact form  */
+label{
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.commonbtnclr:hover, button:hover{
+    color: white !important;
+    background-color: #292052 !important;
+    border-radius: 5px;
+}
+.moreabout p:hover{
+    color: white;
+    cursor: pointer;
+}
